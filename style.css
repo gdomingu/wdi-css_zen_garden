@@ -46,7 +46,7 @@ header>h2{
   float: right;
   background-image: url('images/summary.gif');
   background-repeat: no-repeat;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .summary>p,
@@ -92,10 +92,11 @@ header>h2{
   background-repeat: no-repeat;
   margin-right:7px;
   width:192px;
-  height:425px;
+  height:460px;
   display: block;
   float: right;
-  padding-top: 15px;
+  padding-top: 10px;
+  margin-top:-43px;
 }
 .design-selection>h3{
   visibility:hidden;
