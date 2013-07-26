@@ -1,1 +1,198 @@
 /* Have fun :) */
+body{
+  background-image: url('images/background.gif');
+  width: 670px;
+  font-family: verdana;
+  font-size: 11px;
+  line-height: 16px;
+
+}
+li{
+  padding:5px;
+}
+a:link {
+  color:red;
+  text-decoration:none;
+}
+.design-selection li{
+  list-style-image: url('images/paperfolded.gif')
+}
+
+.page-wrapper{
+  width: 605px;
+  height: 3000px;
+  padding-top: 0px;
+  margin:auto;
+  box-shadow: 0 0 4em black;
+  background-image: url('images/containerbackground.gif');
+  background-position: top;
+}
+header{
+  background-image: url('images/top.gif');
+  background-repeat: no-repeat;
+  height:332px;
+}
+
+header>h1,
+header>h2{
+  visibility: hidden;
+}
+
+.summary{
+  margin-right:7px;
+  width:192px;
+  height:100px;
+  display: block;
+  float: right;
+  background-image: url('images/summary.gif');
+  background-repeat: no-repeat;
+  padding-top: 60px;
+}
+
+.summary>p,
+.preamble>p,
+.explanation>p,
+.participation>p,
+.benefits>p,
+.requirements>p {
+  margin:10px;
+
+}
+
+.preamble{
+  background-image: url('images/title1.gif');
+  background-repeat: no-repeat;
+  width:389px;
+  display:block;
+  float: left;
+  margin-left:8px;
+  padding-top:15px;
+}
+
+.preamble>h3{
+  visibility:hidden;
+}
+
+.main.supporting{
+  background-image: url('images/title2.gif');
+  background-repeat: no-repeat;
+  width:389px;
+  display:block;
+  float: left;
+  margin-left:8px;
+  padding-top:15px;
+}
+
+.explanation>h3{
+  visibility:hidden;
+}
+
+.design-selection{
+  background-image: url('images/designs.gif');
+  background-repeat: no-repeat;
+  margin-right:7px;
+  width:192px;
+  height:425px;
+  display: block;
+  float: right;
+  padding-top: 15px;
+}
+.design-selection>h3{
+  visibility:hidden;
+}
+
+.participation{
+  background-image: url('images/title3.gif');
+  background-repeat: no-repeat;
+  width:389px;
+  display:block;
+  float: left;
+  padding-top:15px;
+}
+
+.participation>h3{
+  visibility:hidden;
+}
+
+.design-archives{
+  background-image: url('images/archives.gif');
+  background-repeat: no-repeat;
+  margin-right:7px;
+  width:192px;
+  height:95px;
+  display: block;
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.design-archives>h3{
+  visibility:hidden;
+}
+
+.design-archives ul,
+.zen-resources ul{
+  list-style-image: url('images/paper.gif')
+}
+.zen-resources{
+  background-image: url('images/resources.gif');
+  background-repeat: no-repeat;
+  margin-right:7px;
+  width:192px;
+  height:200px;
+  display: block;
+  float: right;
+  padding-top: 15px;
+}
+
+.zen-resources>h3{
+  visibility:hidden;
+}
+
+.benefits{
+  background-image: url('images/title4.gif');
+  background-repeat: no-repeat;
+  width:389px;
+  display:block;
+  float: left;
+  padding-top:15px;
+
+}
+
+.benefits>h3{
+  visibility:hidden;
+}
+
+.requirements{
+  background-image: url('images/title5.gif');
+  background-repeat: no-repeat;
+  width:389px;
+  display:block;
+  float: left;
+  padding-top:15px;
+}
+
+.requirements>h3{
+  visibility:hidden;
+}
+
+footer{
+  background-color:white;
+  background-repeat: no-repeat;
+  width:389px;
+  height:30px;
+  display:block;
+  float: left;
+  margin:auto;
+  border-top: 1px solid grey;
+  padding-top: 7px;
+}
+footer>a:link{
+font-weight: bold;
+}
+footer>a:first-child{
+  margin-left: 100px;
+}
+footer>a:last-child{
+  margin-right: 80px;
+}
